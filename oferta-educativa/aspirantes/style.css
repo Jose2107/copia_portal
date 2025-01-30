@@ -1,0 +1,195 @@
+.contenedor-divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.div-item {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button {
+    color: #fff;
+    padding: 17px 30px;
+    border: none !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-container {
+    padding-top: 40px;
+}
+
+.btn1 {
+    background-color: #6b7c69;
+}
+
+.btn2 {
+    background-color: #c3c1c2;
+}
+
+.btn3 {
+    background-color: #a19766;
+}
+
+@media (min-width: 769px) {
+    .pdf-container {
+        display: block;
+    }
+
+    .div-item {
+        flex: 1 1 calc(33.33% - 20px);
+        max-width: calc(33.33% - 20px);
+    }
+
+    .div-item img {
+        display: block;
+        width: 400px;
+        height: auto;
+    }
+
+
+    .div-item .flip-container {
+        display: block;
+    }
+
+    .div-item .flip {
+        display: block;
+        transform: none;
+    }
+
+    .div-item .back {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contenedor-divs {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contenedor-divs {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-divs {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        display: block;
+    }
+
+    .div-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: 20%;
+    }
+
+    .div-item img {
+        width: 80%;
+        height: auto;
+    }
+
+    .btn-container, .pdf-container {
+        display: none;
+    }
+
+    iframe {
+        display: none;
+    }
+
+
+    .div-item .flip-container {
+        perspective: 1000px;
+    }
+
+    .div-item .flip {
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
+    }
+
+    .div-item:hover .flip {
+        transform: rotateY(180deg);
+    }
+
+    .div-item .flip .front,
+    .div-item .flip .back {
+        backface-visibility: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-item .flip .front {
+        background-color: transparent;
+    }
+
+    .div-item .flip .back {
+        background-color: #6b7c69;
+        color: white;
+        font-size: 16px;
+        transform: rotateY(180deg);
+    }
+
+    .div-item .back a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #6b7c69;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        padding: 30px 100px;
+    }
+
+    .div-item .back2 a {
+        background-color: #c3c1c2 !important;
+    }
+}
+
+.div-item .back3 a {
+    background-color: #a19766 !important;
+}
+
+@media (max-width: 480px) {
+    .contenedor-divs {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .div-item {
+        font-size: 1.5rem;
+    }
+    .div-item .back a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #6b7c69;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        padding: 15px 20px;
+    }
+}

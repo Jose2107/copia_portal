@@ -1,0 +1,351 @@
+/* Estilos generales para oferta educativa */
+.titulo-verde {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.titulo-verde h3 {
+    font-size: 1.85rem !important;
+    padding: 10px !important;
+    background-color: #477551 !important;
+    color: #fff !important;
+}
+
+@media (max-width: 1200px) {
+    .titulo-verde {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .titulo-verde h3 {
+        font-size: 1.85rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .titulo-verde {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .titulo-verde h3 {
+        font-size: 1.85rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-verde {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .titulo-verde h3 {
+        font-size: 1.85rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-verde {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .titulo-verde h3 {
+        font-size: 1.85rem !important;
+    }
+}
+
+
+/* Estilos para Espacios Universitarios */
+
+.pdf-content{
+    padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+    .pdf-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .pdf-content iframe {
+        max-width: 700px;
+        height: 60vh;
+        border: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .pdf-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .pdf-content iframe {
+        width: auto;
+        max-width: 700px;
+        height: 60vh;
+        border: none;
+    }
+}
+
+/* Estilos para Instituciones Incorporadas */
+
+.titulo-verde a {
+    font-size: 16px;
+    color: #0345bf;
+}
+
+.menu-instituciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 4rem;
+    font-size: 16px !important;
+    padding-top: 80px;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    background: none !important;
+}
+
+.carousel-inner {
+    background: none !important;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none !important;
+}
+
+.directorio {
+    padding-bottom: 2rem;
+    padding-top: 100px !important;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.directorio a {
+    color: #0345bf;
+}
+
+.column a {
+    color: #0345bf;
+}
+
+#dir {
+    background-color: #c3c3c3;
+}
+
+.direccion {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    margin: 0;
+    color: #ffffff;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#dir {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.column {
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+}
+
+.column p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .direccion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dir {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .column {
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .column p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .direccion {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .column {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .column p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu-instituciones {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/* Estilos para preparatorias */
+
+.card img {
+    width: 395px;
+    height: 263.3px;
+}    
+
+.container_p {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1320px;
+}
+
+.prepas-card {
+    text-align: center;
+
+}
+
+.prepas-card a {
+    color: #0345bf;
+}
+
+.prepas-card img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.column {
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column p {
+    margin: 0;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.card {
+    width: 30% !important;
+    margin-right: 20px !important;
+    text-align: left !important;
+    border: none !important;
+    border-radius: none !important;
+    background-color:transparent !important;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.section-id-1539093608977 {
+    background-color: #e3e3e3;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .grid {
+        display: flex;
+        justify-content: center;
+    }
+    .effect-winston {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .grid {
+        display: flex;
+        justify-content: center;
+    }
+    .effect-winston {
+        width: 100%;
+        height: auto;
+    }
+    .espacios-universitarios-titulo h3, .espacios-universitarios-titulo p {
+        text-align: center;
+    }
+}
+.effect-winston img {
+    /*-- width: 100%;
+    height: auto;*/
+    image-rendering: -webkit-optimize-contrast;
+}
