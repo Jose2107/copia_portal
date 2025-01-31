@@ -248,6 +248,19 @@ ul ul {
     margin-bottom: 0;
 }
 
+.titulo-verde {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.titulo-verde h3 {
+    font-size: 1.85rem !important;
+    padding: 10px !important;
+    background-color: #477551 !important;
+    color: #fff !important;
+}
 
 /* Estilos del index.html */
 
