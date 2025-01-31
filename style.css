@@ -359,6 +359,10 @@ ul ul {
     padding-top: 15px;
 }
 
+.sp-menu-item{
+    padding: 0 7px !important;
+}
+
 @media (max-width: 1200px) {
     .wdgt-tl {
         width: 30%;
