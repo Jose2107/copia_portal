@@ -1,51 +1,141 @@
-.sp-pagebuilder-row, .sppb-row {
+.sp-pagebuilder-row,
+.sppb-row {
     display: -ms-flexbox;
-    display: flex
-;
+    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
+
 #column-wrap-id-47d94be4-6665-44f4-8bd6-139538abbd67 {
     max-width: 100%;
     flex-basis: 100%;
 }
-.sppb-col, .sppb-col-auto, .sppb-col-lg, .sppb-col-lg-1, .sppb-col-lg-10, .sppb-col-lg-11, .sppb-col-lg-12, .sppb-col-lg-2, .sppb-col-lg-3, .sppb-col-lg-4, .sppb-col-lg-5, .sppb-col-lg-6, .sppb-col-lg-7, .sppb-col-lg-8, .sppb-col-lg-9, .sppb-col-lg-auto, .sppb-col-md, .sppb-col-md-1, .sppb-col-md-10, .sppb-col-md-11, .sppb-col-md-12, .sppb-col-md-2, .sppb-col-md-3, .sppb-col-md-4, .sppb-col-md-5, .sppb-col-md-6, .sppb-col-md-7, .sppb-col-md-8, .sppb-col-md-9, .sppb-col-md-auto, .sppb-col-sm, .sppb-col-sm-1, .sppb-col-sm-10, .sppb-col-sm-11, .sppb-col-sm-12, .sppb-col-sm-2, .sppb-col-sm-3, .sppb-col-sm-4, .sppb-col-sm-5, .sppb-col-sm-6, .sppb-col-sm-7, .sppb-col-sm-8, .sppb-col-sm-9, .sppb-col-sm-auto, .sppb-col-xl, .sppb-col-xl-1, .sppb-col-xl-10, .sppb-col-xl-11, .sppb-col-xl-12, .sppb-col-xl-2, .sppb-col-xl-3, .sppb-col-xl-4, .sppb-col-xl-5, .sppb-col-xl-6, .sppb-col-xl-7, .sppb-col-xl-8, .sppb-col-xl-9, .sppb-col-xl-auto, .sppb-col-xs-1, .sppb-col-xs-10, .sppb-col-xs-11, .sppb-col-xs-12, .sppb-col-xs-2, .sppb-col-xs-3, .sppb-col-xs-4, .sppb-col-xs-5, .sppb-col-xs-6, .sppb-col-xs-7, .sppb-col-xs-8, .sppb-col-xs-9, .sppb-row-column {
+
+.sppb-col,
+.sppb-col-auto,
+.sppb-col-lg,
+.sppb-col-lg-1,
+.sppb-col-lg-10,
+.sppb-col-lg-11,
+.sppb-col-lg-12,
+.sppb-col-lg-2,
+.sppb-col-lg-3,
+.sppb-col-lg-4,
+.sppb-col-lg-5,
+.sppb-col-lg-6,
+.sppb-col-lg-7,
+.sppb-col-lg-8,
+.sppb-col-lg-9,
+.sppb-col-lg-auto,
+.sppb-col-md,
+.sppb-col-md-1,
+.sppb-col-md-10,
+.sppb-col-md-11,
+.sppb-col-md-12,
+.sppb-col-md-2,
+.sppb-col-md-3,
+.sppb-col-md-4,
+.sppb-col-md-5,
+.sppb-col-md-6,
+.sppb-col-md-7,
+.sppb-col-md-8,
+.sppb-col-md-9,
+.sppb-col-md-auto,
+.sppb-col-sm,
+.sppb-col-sm-1,
+.sppb-col-sm-10,
+.sppb-col-sm-11,
+.sppb-col-sm-12,
+.sppb-col-sm-2,
+.sppb-col-sm-3,
+.sppb-col-sm-4,
+.sppb-col-sm-5,
+.sppb-col-sm-6,
+.sppb-col-sm-7,
+.sppb-col-sm-8,
+.sppb-col-sm-9,
+.sppb-col-sm-auto,
+.sppb-col-xl,
+.sppb-col-xl-1,
+.sppb-col-xl-10,
+.sppb-col-xl-11,
+.sppb-col-xl-12,
+.sppb-col-xl-2,
+.sppb-col-xl-3,
+.sppb-col-xl-4,
+.sppb-col-xl-5,
+.sppb-col-xl-6,
+.sppb-col-xl-7,
+.sppb-col-xl-8,
+.sppb-col-xl-9,
+.sppb-col-xl-auto,
+.sppb-col-xs-1,
+.sppb-col-xs-10,
+.sppb-col-xs-11,
+.sppb-col-xs-12,
+.sppb-col-xs-2,
+.sppb-col-xs-3,
+.sppb-col-xs-4,
+.sppb-col-xs-5,
+.sppb-col-xs-6,
+.sppb-col-xs-7,
+.sppb-col-xs-8,
+.sppb-col-xs-9,
+.sppb-row-column {
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
+
 #column-id-47d94be4-6665-44f4-8bd6-139538abbd67 {
     box-shadow: 0 0 0 0 #FFFFFF;
 }
+
 .sppb-column {
     width: 100%;
     height: 100%;
     display: -ms-flexbox;
-    display: flex
-;
+    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-.sppb-column, .sppb-column-addons {
+
+.sppb-column,
+.sppb-column-addons {
     position: relative;
     z-index: 1;
     width: 100%;
 }
+
 #sppb-addon-9960514f-de58-49a5-8f0a-c04cc2697adb {
     box-shadow: 0 0 0 0 #FFFFFF;
 }
-.clearfix:after, .clearfix:before, .sp-pagebuilder-row:after, .sp-pagebuilder-row:before, .sppb-container-fluid:after, .sppb-container-fluid:before, .sppb-container:after, .sppb-container:before, .sppb-nav:after, .sppb-nav:before, .sppb-panel-body:after, .sppb-panel-body:before {
+
+.clearfix:after,
+.clearfix:before,
+.sp-pagebuilder-row:after,
+.sp-pagebuilder-row:before,
+.sppb-container-fluid:after,
+.sppb-container-fluid:before,
+.sppb-container:after,
+.sppb-container:before,
+.sppb-nav:after,
+.sppb-nav:before,
+.sppb-panel-body:after,
+.sppb-panel-body:before {
     content: " ";
     display: table;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -55,4 +145,60 @@ p {
     .sppb-row-container {
         max-width: 1320px;
     }
+}
+
+/* Estilos H. Consejo Universitario */
+.imageeffectck_img {
+    width: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+.imageeffectck_img img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imageeffectck_img img:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.container-t {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background: #2c5234;
+    color: white;
+    width: 390px;
+}
+
+.tab {
+    padding: 10px;
+    border-bottom: 1px solid #9c8412;
+}
+
+.tab:last-child {
+    border-bottom: none;
+}
+
+.content-container {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #0073e6;
+}
+
+.tab-content {
+    display: none;
+}
+
+.active {
+    display: block;
 }
