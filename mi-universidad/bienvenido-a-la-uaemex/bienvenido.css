@@ -4,8 +4,9 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 75px;
 }
 
 #column-wrap-id-47d94be4-6665-44f4-8bd6-139538abbd67 {
