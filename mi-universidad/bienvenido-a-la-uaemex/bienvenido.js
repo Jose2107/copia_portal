@@ -14,15 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function showTab(tabIndex) {
-    // Primero, quitar la clase 'active' y 'active-tab' de todos los tabs
     const tabs = document.querySelectorAll('.tab');
     const tabContents = document.querySelectorAll('.tab-content');
     tabs.forEach(tab => tab.classList.remove('active-tab'));
     tabContents.forEach(content => content.classList.remove('active'));
-    
-    // Añadir la clase 'active' al contenido de la pestaña seleccionada
     document.getElementById(`content-${tabIndex}`).classList.add('active');
-    
-    // Añadir la clase 'active-tab' al tab seleccionado
     tabs[tabIndex].classList.add('active-tab');
 }
