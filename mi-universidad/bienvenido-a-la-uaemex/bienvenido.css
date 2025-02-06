@@ -170,6 +170,11 @@ p {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 5%;
+    align-items: flex-start;
+}
+
+.tabs-container {
+    flex-shrink: 0;
 }
 
 .tabs {
@@ -178,12 +183,13 @@ p {
     cursor: pointer;
     background: #2c5234;
     color: white;
+    font-size: 16px;
     width: 390px;
 }
 
 .tab {
     padding: 10px;
-    border-bottom: 1px solid #9c8412;
+    border-bottom: 2px solid #9c8412;
 }
 
 .tab:last-child {
@@ -193,7 +199,15 @@ p {
 .content-container {
     flex: 1;
     padding: 15px;
-    border: 1px solid #0073e6;
+    border-top: 1px solid #9c8412;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    color: #838783;
+    padding: 40px;
+    font-size: 16px;
 }
 
 .tab-content {
@@ -202,4 +216,12 @@ p {
 
 .active {
     display: block;
+}
+
+.active-tab {
+    background-color: #9c8412;
+}
+
+.tab-content ul {
+    list-style-type: disc;
 }
