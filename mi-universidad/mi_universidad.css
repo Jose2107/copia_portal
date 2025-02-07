@@ -103,3 +103,53 @@
         width: auto;
     }
 }
+
+/* Organo interno de control */
+#tabs-main{
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.tabs-org {
+  display: flex;
+  border-bottom: #958419 solid 2px !important;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+.tabs-org button {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(214, 214, 214);
+    color: rgb(4, 76, 208);
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.tabs-org button.active {
+  background: rgb(214, 214, 214);
+}
+
+.tabs-org button:hover {
+    background: rgb(214, 214, 214);
+  }
+.tab-content-org {
+  display: none;
+  padding: 20px;
+  border-top: none;
+}
+.tab-content-org.active {
+  display: block;
+}
+
+@media (max-width: 920px) {
+
+}
